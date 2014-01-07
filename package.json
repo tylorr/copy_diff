@@ -1,0 +1,9 @@
+{
+  "preferGlobal": true,
+  "bin": {
+    "copy_diff": "./copy_diff.js"
+  },
+  "dependencies": {
+    "mkdirp": "~0.3.5"
+  }
+}
