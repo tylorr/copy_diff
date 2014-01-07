@@ -4,6 +4,8 @@
     "copy_diff": "./copy_diff.js"
   },
   "dependencies": {
-    "mkdirp": "~0.3.5"
+    "mkdirp": "~0.3.5",
+    "optimist": "~0.6.0",
+    "event-stream": "~3.0.20"
   }
 }
