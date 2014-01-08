@@ -11,7 +11,7 @@ D deleted_file        # these files are ignored
 
 Usage: copy_diff
 -h, --help      show usage
--o, --output    output directory 
+-o, --output    output directory
 */
 
 var path = require('path'),
@@ -36,7 +36,7 @@ var path = require('path'),
 if (argv.help) {
   optimist.showHelp();
   process.exit(0);
-} 
+}
 
 // copy file to output directory keeping relative path
 copy_file = function(out_dir, in_file) {
@@ -99,4 +99,4 @@ global_domain.on('error', function(error) {
   process.exit(1);
 });
 
-
+process.on('SIGINT', process.exit);
