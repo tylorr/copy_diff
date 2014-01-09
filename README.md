@@ -18,7 +18,7 @@ M sub_folder/modified_file
 D deleted_file
 ```
 
-**examples**
+**Examples**
 
 ```bash
 $ copy_diff < files.txt
