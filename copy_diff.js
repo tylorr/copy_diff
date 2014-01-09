@@ -10,8 +10,8 @@ M modified/file_path
 D deleted_file        # these files are ignored
 
 Usage: copy_diff
--h, --help      show usage
--o, --output    output directory
+-h, --help               show usage
+-o, --output <directory> output directory
 */
 
 var path = require('path'),
@@ -66,7 +66,7 @@ run = function() {
 
     // filter by new and modified and map to filename only
     .pipe(es.map(function(file, callback) {
-      var match = file.match(/^[AM]\s(.+)$/);
+      var match = file.match(/^[AM]\s+(.+)$/);
 
       if (match) {
         callback(null, match[1]);
