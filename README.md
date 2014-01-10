@@ -3,6 +3,12 @@ copy_diff
 
 Take the output of a diff program as an input stream and print modified/new files. If the output option is specified, then modified/new files are copied to specified directory.
 
+**Install**
+
+```
+npm install -g copy_diff
+```
+
 **Usage**
 
 ```
