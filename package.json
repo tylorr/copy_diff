@@ -1,11 +1,43 @@
 {
-  "preferGlobal": true,
-  "bin": {
-    "copy_diff": "./copy_diff.js"
+  "name": "copy_diff",
+  "description": "Take file diffs as input and copy or print modified files.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/miningold/copy_diff",
+  "author": {
+    "name": "Tylor Reynolds",
+    "email": "rynldsrap@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/miningold/copy_diff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miningold/copy_diff/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/miningold/copy_diff/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "copy_diff",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "copy",
+    "modified",
+    "diff",
+    "version control",
+    "git"
+  ],
   "dependencies": {
     "mkdirp": "~0.3.5",
     "optimist": "~0.6.0",
     "event-stream": "~3.0.20"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "copy_diff": "./copy_diff.js"
   }
 }
