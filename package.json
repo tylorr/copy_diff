@@ -38,6 +38,6 @@
   },
   "preferGlobal": "true",
   "bin": {
-    "copy_diff": "./copy_diff.js"
+    "copy_diff": "bin/copy_diff.js"
   }
 }
