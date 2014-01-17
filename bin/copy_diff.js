@@ -6,12 +6,8 @@ var cli = require('../lib/cli'),
       .alias('h', 'help')
       .argv;
 
-// bind and start stdin
+// bind stdin and stdout
 argv.stdin = process.stdin;
-argv.stdin.resume();
-argv.stdin.setEncoding('utf8');
-
-// bind stdout
 argv.stdout = process.stdout;
 
 cli.argv(argv);
