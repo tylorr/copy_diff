@@ -1,0 +1,24 @@
+Usage: $0 [options]
+
+Description:
+
+  Read file diff status lists and copy modified files to output path.
+  If an output path is not specified, then print modified file paths.
+
+Options:
+
+  -o, --output <path>   specify output path
+  -h, --help            output usage information
+
+Input format:
+
+  A  path/to/new_file
+  M  path/to/modified_file
+  D  deleted_file
+
+  Only new or modified files are copied.
+
+Example:
+
+  $ git diff --name-status HEAD~3 HEAD > diff_status.txt
+  $ $0 -o ./modified_files/ < diff_status.txt

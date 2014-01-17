@@ -12,8 +12,8 @@ npm install -g copy_diff
 **Usage**
 
 ```
--h, --help                show usage
 -o, --output <directory>  copy modified files to specified directory
+-h, --help                show usage
 ```
 
 **files.txt**
