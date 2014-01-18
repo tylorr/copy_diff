@@ -29,6 +29,8 @@
     "modified",
     "diff",
     "version control",
+    "files",
+    "modified files",
     "git"
   ],
   "dependencies": {
