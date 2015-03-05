@@ -39,10 +39,10 @@ sub_folder/modified_file
 
 **Tip**
 
-You can get `git` to output this information by using the `--name-status` option.
+You can get `git diff` to output this information by using the `--name-status` option.
 
 ```
-$ git --name-status HEAD~4 HEAD | copy_diff
+$ git diff --name-status HEAD~4 HEAD | copy_diff
 new_file
 sub_folder/modified_file
 ```
